@@ -12,7 +12,7 @@
 //~ Використання метода join()
 
 // const courses = ['HTML', 'CSS', 'JavaScript', 'React', 'NodeJS'];
-// const result = '';
+// const result = courses.join(', ');
 
 // console.log('courses =', courses);
 // console.log('result =', result);
@@ -20,7 +20,7 @@
 //~ Використання метода split()
 
 // const phoneNumbers = '+380961111111,+380961111111,+380961111111,+380961111111';
-// const phoneNumbersArr = [];
+// const phoneNumbersArr = phoneNumbers.split(',');
 
 // console.log('phoneNumbers =', phoneNumbers);
 // console.log('phoneNumbersArr =', phoneNumbersArr);
@@ -28,7 +28,12 @@
 //~ Використання метода slice()
 
 // const courses = ['HTML', 'CSS', 'JavaScript', 'React', 'NodeJS'];
-// const coursesCopy = [];
+// const coursesCopy = courses.slice(1, 3);
+
+// console.log('courses =', courses);
+// console.log('coursesCopy =', coursesCopy);
+
+// coursesCopy[0] = 'HTML Fundamentals';
 
 // console.log('courses =', courses);
 // console.log('coursesCopy =', coursesCopy);
@@ -37,7 +42,7 @@
 
 // const oldCourses = ['HTML', 'CSS'];
 // const newCourses = ['JavaScript', 'React', 'NodeJS'];
-// const allCourses = [];
+// const allCourses = oldCourses.concat(newCourses, ['Hello', 'world']);
 
 // console.log('oldCourses =', oldCourses);
 // console.log('newCourses =', newCourses);
@@ -49,8 +54,19 @@
 
 // console.log('courses =', courses);
 
+// console.log(courses.indexOf('JS'));
+
 //~ Використання методів push()/pop() та unshift()/shift()
 
 // const courses = ['HTML', 'CSS', 'JavaScript', 'React', 'NodeJS'];
+
+// console.log('courses =', courses);
+
+// courses.push('TypeScript', 'SASS');
+
+// console.log('courses =', courses);
+
+// courses.pop();
+// courses.pop();
 
 // console.log('courses =', courses);

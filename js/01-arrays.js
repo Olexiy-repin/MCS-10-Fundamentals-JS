@@ -7,3 +7,19 @@
  * - Довжина масиву
  * - Індекс останнього елемента
  */
+
+const courses = ['HTML', 'CSS', 'JS'];
+
+console.log(courses);
+
+const firstCourse = courses[0];
+
+console.log(firstCourse);
+
+const lastCourse = courses[courses.length - 1];
+
+console.log(lastCourse);
+
+courses[0] = 'HTML Fundamentals';
+
+console.log(courses);
